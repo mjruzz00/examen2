@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Correo</title>
+	<link rel="stylesheet" type="text/css" href="efectos02.css">
+	<link href="icono_tec.png"rel="shortcut icon"type="image/png">
+	<script src="exam2ciclo.js" type="text/javascript"></script>
+</head>
+<body><center>
+		<p class="titulo24">Obtener el correo electronico de una persona</p>
+		<table border="3" width="70%">
+		<form name="TEC"> 
+        <tr align="center">
+            <tr>
+            <tr align="center">
+				<td><p>Indica el nombre de la persona</p></td>
+				<td><input name="nom" type="text" class="campo"><font size="6" color="red"></font></td>
+			</tr>
+           <td>
+           	<tr align="center">
+				<td><p>Indica el apellido paterno de la persona</p></td>
+				<td><input name="ap" type="text" class="campo"><font size="6" color="red"></font></td>
+			</tr>
+            <td>
+             <tr align="center">
+				<td><p>Indica el apellido materno de la persona</p></td>
+				<td><input name="am" type="text" class="campo"><font size="6" color="red"></font></td>
+			</tr>
+			<tr align="center">
+				<td><p>Indica la fecha de nacimiento</p></td>
+				<td><input name="fec" type="date" class="campo"><font size="6" color="red"></font></td>
+			</tr>
+            <td>
+            <tr align="center">
+				<td><p>Indica el correo electronico de la persona</p></td>
+				<td><input name="salida" type="text" class="campo" disabled="true" style="background: gray;"></td>
+			</tr>
+            <tr align="center">
+				<td><p>Indica la contraseña de la persona</p></td>
+				<td><input name="contra" type="number" class="campo" disabled="true" style="background: gray;"></td>
+			</tr>
+                <td align="center" colspan="3">
+                <table width="100%">
+                    <tr align="center">
+                        <td><input name="b_ejecuta"type="submit" class="boton" style="background: gray;" onclick="ejecuta()"> </td>
+                        <td><input name="b_reset" type="reset"class="boton"></td>
+                    </tr>            
+                </form>	
+        </table>
+	</center></body>
+</html>
